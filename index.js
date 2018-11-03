@@ -14,6 +14,9 @@ module.exports = {
   get FontAwesome() {
     return require('./FontAwesome').default;
   },
+  get FontAwesome5() {
+    return require('./FontAwesome5').default;
+  },
   get Foundation() {
     return require('./Foundation').default;
   },
